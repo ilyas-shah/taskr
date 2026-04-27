@@ -1,8 +1,8 @@
 # taskr — project constitution
 
 ## What this is
-A Node.js CLI task manager. Commands: add, list, done, delete.
-Storage: a local JSON file at ~/.taskr/tasks.json.
+A Node.js CLI task manager. Commands: add, list, done, delete, search.
+Storage: SQLite via node:sqlite built-in. DB file: taskr.db in the project root (overridable with TASKR_DB_PATH env var for tests). MCP tooling connects to the same file via .mcp.json.
 
 ## Tech rules
 - Node.js with no external dependencies (built-ins only)
