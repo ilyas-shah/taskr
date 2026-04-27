@@ -1,0 +1,14 @@
+{
+  "name": "taskr",
+  "version": "1.0.0",
+  "description": "A Node.js CLI task manager",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
